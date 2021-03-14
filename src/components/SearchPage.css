@@ -1,10 +1,18 @@
+.searchResult{
+    display: flex;
+    
+}
+
 .searchPage__info{
     padding:20px;
+
 }
 
 .searchPage__info>p{
-    margin-bottom: 10px;
     font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .searchPage__info>h1{
