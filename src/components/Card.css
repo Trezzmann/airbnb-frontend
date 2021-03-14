@@ -1,0 +1,28 @@
+.card{
+    margin:10px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 100ms ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card:hover{
+    transform:scale(1.07)
+}
+
+.card>img{
+    object-fit:cover;
+    min-width: 300px;
+    max-height: 200px;
+    width:100%;
+}
+
+.card__info>p{
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+
+.card__info{
+    padding:20px;
+}
